@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+        <link href=""  rel="stylesheet">
+        <link href="newhome.css" rel="stylesheet">
+        <title>Employee Payroll App</title>
+        <script defer src=""></script>
+    </head>
+    <body>
+        <header class="header-content header">
+            <div class="logo-content">
+                <img src="C:\Users\Poojitha\vs\emppayrollapp\logo.jpg" alt="" width="15%" height="15%">
+                <div>
+                    <span class="emp-text">Employee</span><br>
+                    <span class="emp-text emp-payroll">Payroll</span>
+                </div>
+            </div>
+        </header>
+        <div class="main-content">
+        <div class="header-content">
+            <div class = "emp-detail-text">
+                Employee Details <div class="emp-count">10</div>
+            </div>
+            <a href="" class="add-button">
+            <img src="" alt="">Add User</a>
+        </div>
+        <div class="table-main">
+            <table id="display" class="table">
+                <tr>
+                <th></th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Department</th>
+                <th>Salary</th>
+                <th>Start Date</th>
+                <th>Actions</th>
+                </tr>
+                <tr>
+                <td>
+                    <img class="profile" alt="" src="C:\Users\Poojitha\vs\emppayrollapp\cake.jpg" width="25%" height="25%">
+
+                </td>
+                <td>Narayan Mahadevan</td>
+                <td>Male</td>
+                <td>
+                    <div class="dept-label">HR</div>
+                    <div class="dept-label">Finance</div>
+                </td>
+                <td>30000</td>
+                <td>1 Nov 2020</td>
+                <td>
+                    <img id="1" onclick="remove(this)" alt = "delete" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIgAAACICAMAAAALZFNgAAAAZlBMVEX///8REREAAACxsbEUFBT8/PylpaXExMT4+PiZmZlHR0dvb28MDAxDQ0MEBATj4+Px8fEiIiIdHR3p6ena2tpdXV0+Pj6EhIS6urrLy8urq6t5eXlUVFRpaWkvLy9PT083NzeRkZGV2aoMAAADX0lEQVR4nO2bi3aiMBCGkzFRpNPIXdSq+P4vuTOBArbdrXgC27M7vz3HJiHkYyZXEpUSiUQikUgkEolE88oqFX2Sj16aIz+eXj7odMwXJ7HFG3yht2JpkPwM2hitNWov/qIwnPOFQVbOFw/OObYEf3kkt1oYpAQyh7tcr3Gn6/VCbAbKecu1/Ddyf1QBGncukpGKszMIVTTOZYO3I3t/y6ghR2T1QMf/1Bk5q7kD8fnCk4xCF210WtyDFClFXuzvc4XAUDbJd4OKxqFON7s7bVKNrilGMXliQ7um2JbX+LVXTPVSY0WVtI+J4wopUo+vupbbIhwDP9L6Qm0UXS/gnoOqpuMPh/mDhrsTGK5CynRZq1AVlqx7yKj74sedJs4C2SGUe6y1e5jKMAj2NkyVjRSDGMTJBiGTUC4GUdH35TwAoqK9H1hwKgf64WcfqSAgnWueMYnPE8w1yrsG2sFtqjjXPhQHVZLba/y0Xm9hqohl13yeFE4RuyaAUfq7TLdwl8OGGXI6jsgPpdNEOaLRLQKA0Mi6fVJFd4NQOj7TZljHYAitVvBczwqh57ArmNyvsmYAwemDr5+zBAdxz1kk+PJi9eREYIY6IiAC8jhI+xbA+B7urk1TFL6nzw9CpRmeA7aFaj2auzEcdR3GDL3wjCC0+IY0Bd2XDojQM2lOcwYXAKHFyqnY3VLEtjS33e22rmVCTG+74jRaAs1ZR6DMaXbC82nPUfK0o3QtI01QI5WXo4vnBLnxjKv29idXrDm0Bl5skNdqDt0WAuHVrNqYdhHalsTJPmLDofWiIPorEC0gAiIgAiIgAiIgAiIgAiIgAiIgAiIgAiIgAiIgPwjknNjE7l37UhdeOPmlTTZuT0nJeRkQna4jWzfdK3A0dZLU3Ttvg01to3WqlwAxGqGJs/5lPGJV4TuHhixuYLQROe/uBN1/2H9AQhnOuBiE7pLZQdCgf2Lsi9b9TgVHksVwkd0J3Rv+00ZwHz9szf4fW2kC8uNAnjgiGBzEHrK2tZgHafg6bj3ZISyISkrgbup9R/Fboe9sMiiTsBxWHSruuc3jFuEdYKgOwc88q0OZTT1flJWH0IeN+dxUstl+/I3Cn7XdJHysLyiIak/pTjuRp/7CbzpEIpFIJBKJRKJ/X78AowVDRrrdwpoAAAAASUVORK5CYII=" width="5%" height="5%">
+                    <img id="2" alt="edit" onclick = "update(this)" src="https://as2.ftcdn.net/v2/jpg/03/38/46/23/1000_F_338462346_wZZhUA9S6daekMfyuF8cBssJgj4nao8M.jpg" width="5%" height="5%">
+                </td>
+                </tr>
+            </table>
+        </div>
+        </div>
+        <script defer src="newhome.js"></script>
+        <script defer src="EmployeePayroll.js"></script>
+        <script defer src="utility.js"></script>
+        <script defer src="site.js"></script>
+
+
+        
+    </body>
+</html>
